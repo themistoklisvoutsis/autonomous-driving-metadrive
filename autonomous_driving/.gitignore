@@ -1,0 +1,31 @@
+# Local environments and IDEs
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.idea/
+
+# Simulation data and generated artifacts
+auto_runs/
+*.csv
+!data/samples/*.csv
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Machine-specific files and OS clutter
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.log

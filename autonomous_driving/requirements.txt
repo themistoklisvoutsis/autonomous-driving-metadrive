@@ -1,0 +1,7 @@
+# Unpinned package list; validate exact versions in your MetaDrive environment.
+metadrive-simulator
+ultralytics
+opencv-python
+numpy
+pandas
+PyYAML
